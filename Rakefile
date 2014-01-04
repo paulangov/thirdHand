@@ -4,3 +4,6 @@
 require File.expand_path('../config/application', __FILE__)
 
 ThirdHand::Application.load_tasks
+require 'rubygems' 
+require 'bundler/setup' 
+# require your gems as usual require 'nokogiri'
